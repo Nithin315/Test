@@ -1,13 +1,21 @@
+```cpp
 #include <iostream>
 #include <vector>
 
 int main() {
     // Declares an integer array of length 5
-    int array[5] = {1, 2, 3, 4, 5}; 
+    const int arraySize = 5;
+    int array[arraySize] = {1, 2, 3, 4, 5}; 
 
     // Tries to access the 10th element (index 9)
     // This is a common runtime error leading to a segmentation fault
-    std::cout << "Attempting to access array[9]: " << array[9] << std::endl; 
+    std::cout << "Attempting to access array[9]: ";
+    try {
+        std::cout << array[9] << std::endl;
+    } catch (...) {
+        std::cout << "Error: Out of bounds access" << std::endl;
+    }
 
     return 0;
 }
+```
