@@ -1,1 +1,6 @@
-print("Hello World")
+public class BrokenJava {
+    public static void main(String[] args) {
+        int x = 10. // Missing a semicolon at the end of the line
+        System.oot.println("X is: " + x) // Typo in 'out' and missing a semicolon
+    }
+}
