@@ -1,3 +1,3 @@
 for item in iterable:
-    if condition
-        break  
+    if condition:
+        break
