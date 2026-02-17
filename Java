@@ -1,13 +1,10 @@
-// BrokenJava.java
+```python
+# improved_python.py
 
-public class Test {
-    public static void main(String[] args) {
-        int[] nums = {1, 2, 3, 4
-        for(int i = 0; i <= nums.length; i++) {
-            System.out.println(nums[i])
-        }
-        
-        String name = null;
-        System.out.println(name.length());
-    }
-}
+def greet(name):
+    print("Hello, " + name)
+
+numbers = [1, 2, 3, 4]
+for n in numbers:
+    print(n*2)
+```
