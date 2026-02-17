@@ -1,8 +1,7 @@
-def broken_function()
+```python
+def broken_function():
     print("This will never run")
     x = 10
-     y = 20 # IndentationError: unexpected indent
-    return x + z # NameError: name 'z' is not defined
-
-broken_function()
-# SyntaxError: invalid syntax (missing : after function definition)
+    y = 20
+    return x + y
+```
