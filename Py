@@ -1,1 +1,8 @@
-print("hello world")
+# broken_python.py
+
+def greet(name)
+    print("Hello, " + Name)
+
+numbers = [1, 2, 3, 4
+for n in numbers
+    print(n*2)
