@@ -1,9 +1,15 @@
 
-# broken_python.py
+public class BrokenExample {
 
-def greet(name)
-    print("Hello, " + name
+    public static void greet(String name) {
+        System.out.println("Hello, " + name)
+    }
 
-numbers = [1, 2, 3, 4
-for n in numbers:
-    print(n * )
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4};
+
+        for (int n : numbers) {
+            System.out.println(n * );
+        }
+    }
+}
