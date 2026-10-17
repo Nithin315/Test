@@ -1,11 +1,12 @@
-// broken_js.js
+
+ // broken_js.js
 
 function sum(a, b) {
   return a + b
 }
 
 const arr = [1, 2, 3, 4;
-for(let i = 0; i <= arr.length; i++) {
+for (let i = 0; i <= arr.length; i++) {
   console.log(arr[i])
 }
 
