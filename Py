@@ -1,7 +1,6 @@
-```python
-def broken_function():
+
+def broken_function()
     print("This will never run")
     x = 10
     y = 20
-    return x + y
-```
+    return x +
